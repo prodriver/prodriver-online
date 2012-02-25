@@ -1,0 +1,1 @@
+<div id="footer-line">ProDriver.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="about.cfm">About Us</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="contact.cfm">Contact Us</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="terms.cfm">Terms and Conditions</a></div>

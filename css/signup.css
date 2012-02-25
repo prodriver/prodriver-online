@@ -1,0 +1,25 @@
+/*
+ 
+	SIGNUP PAGES 
+
+*/
+
+	#body { margin:0; width:970px; height:242px; }
+	#content-container-table { width:970px; margin:10px 0 0 0; }
+	#pricing { float:left; width:188px; }
+	#pricing img {margin-top:10px; margin-left:8px; }
+	#form-body { float:left; margin: 10px 8px 0 0; width: 471px; }
+	#verification-process { float:left; width:295px; border:4px solid #F7C815; margin: 10px 0 0 0; }
+		#verification-process .verification-header { float:left; font-family:'CollegiateBlackFLF'; font-size:2.2em; color:#FFFFFF; margin:15px 0 5px 15px; }
+		#verification-process .verification-text { font-family:Verdana, Geneva, sans-serif; color:#FFFFFF; font-size:1.1em; margin:5px 15px 15px 15px; }
+		
+	#application-process { float:left; width:300px; margin: 10px 0 0 0; background:#F7C815; }
+		#application-process .application-header { float:left; font-family:'CollegiateBlackFLF'; font-size:2.2em; color:#2D2D2D; margin:15px 0 5px 15px; }
+		#application-process .subtitle { float:left; font-family:'CollegiateBlackFLF'; font-size:1.125em; color:#2D2D2D; margin:15px 0 10px 0; }
+		#application-process .application-text { font-family:Verdana, Geneva, sans-serif; color:#2D2D2D; font-size:1.1em; margin:5px 15px 15px 15px; }
+		
+	.form-heading { background:#F7C815; font-size:1.6em; padding:10px; margin:0 0 3px 0; font-weight:bold; }
+	.form-content { background:#FFFFFF; margin:0 0 3px 0; padding:10px; }
+		.form-content input { margin:2px 0 6px 0; }
+	.form-label { font-size:1.15em; font-weight:bold; }
+	#form-buttons { margin:10px 0 0 0; }

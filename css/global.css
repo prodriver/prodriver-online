@@ -1,0 +1,210 @@
+/*
+ 
+	GLOBAL 
+
+*/
+
+@font-face {
+		font-family: 'SFCollegiateRegular';
+		src: url('font-collegiate/SF_Collegiate-webfont.eot');
+		src: url('font-collegiate/SF_Collegiate-webfont.eot?#iefix') format('eot'),
+				 url('font-collegiate/SF_Collegiate-webfont.woff') format('woff'),
+				 url('font-collegiate/SF_Collegiate-webfont.ttf') format('truetype'),
+				 url('font-collegiate/SF_Collegiate-webfont.svg#webfontv866ogdc') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'SFCollegiateSolidRegular';
+		src: url('font-collegiate/collegiateblackflf.eot');
+		src: url('font-collegiate/collegiateblackflf.eot?#iefix') format('eot'),
+				 url('font-collegiate/collegiateblackflf.woff') format('woff'),
+				 url('font-collegiate/collegiateblackflf.ttf') format('truetype'),
+				 url('font-collegiate/collegiateblackflf.svg#collegiateblackflf') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+html { margin:0; padding:0; height:100%; }
+body { margin:0; padding:0; height:100%; font-size: 62.5%; font-family:Arial, Helvetica, sans-serif; }
+label { line-height: 1.8; color:#FFFFFF; }
+
+#container { width:970px; height:100%; margin:0 auto; }
+	#header { width:970px; height:66px; position:relative; }
+		#logo { float:left; margin:7px 0 0 0; }
+		#home-menu { float:right; margin:23px 0 0 0; }
+			#home-menu a { margin:0 0 0 15px; font-size:1.1em; font-family:Arial, Helvetica, sans-serif; color:#9B9B9B; text-decoration:none; }
+			#loginBtn, #logoutBtn { border:1px solid #9B9B9B; vertical-align:middle; margin-bottom:.25em; }
+				#login-panel { position: absolute; top: 45px; right:0px; z-index:1000; width: 190px; padding: 10px 15px 5px 15px; background: #2A2A2A; border:1px solid #9B9B9B; font-size: 8pt; font-weight: bold; color: #FFFFFF; display:none; }
+					input { margin:0 0 5px 0; }
+					#loginAccountEmail, #loginAccountPassword { width:183px; }
+	#body { margin:30px 0 0 0; width:970px; height:458px; position:relative; }
+	#content { width:970px; margin:15px 0 0 0; }
+	#footer { text-align:center; }
+	#footer-line a { text-decoration:none; color:#fff; }
+		#content-container { width:970px; }
+			.content { margin:15px 0 0 0; width:970px; background-color:#fff; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+				.content td img { float:left; margin-left:15px; }
+				.content .signup { float:left; margin-top:-120px; }
+				.content .small-image1 img { float:left; margin-left:0; margin-top:10px; margin-bottom:10px; }
+				.content .small-image2 img { float:left; margin-left:0; margin-top:10px; margin-bottom:10px; }
+				.content .header { font-family: 'SFCollegiateSolidRegular'; float:left; font-size:22px; color:#000; margin-top:10px; margin-left:10px; width:65%; text-align:left; }
+				.content .body { float:left; color:#505050; font-size:12px; margin-left:10px; width:65%; text-align:left; }
+		#footer-line { width:970px; height:25px; margin:15px 0 0 0; color:#FFFFFF; }
+		#content-container-sub { width:970px; margin:150px 0 0 0; }
+	.checkbox-div { margin:0 20px 0 0; width:auto; float:left; }
+	.checkbox-div input[type=checkbox] { vertical-align:middle; position:relative; bottom:1px; margin:0 3px 0 0; }
+	
+	#monitor1 { position:absolute; top:108px; left:29px; }
+	#monitor2 { position:absolute; top:107px; left:609px; }
+	
+	
+	/*
+	
+	VALIDATION CSS
+	
+	*/
+	
+	.inputContainer {
+	position: relative;
+	float: left;
+}
+
+.formError {
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	display: block;
+	z-index: 5000;
+	cursor: pointer;
+}
+
+.ajaxSubmit {
+	padding: 20px;
+	background: #55ea55;
+	border: 1px solid #999;
+	display: none
+}
+
+.formError .formErrorContent {
+	width: 100%;
+	background: #ee0101;
+	position:relative;
+	z-index:5001;
+	color: #fff;
+	width: 150px;
+	font-family: tahoma;
+	font-size: 11px;
+	border: 2px solid #ddd;
+	box-shadow: 0 0 6px #000;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	padding: 4px 10px 4px 10px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.greenPopup .formErrorContent {
+	background: #33be40;
+}
+
+.blackPopup .formErrorContent {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow {
+	width: 15px;
+	margin: -2px 0 0 13px;
+  position:relative;
+  z-index: 5006;
+}
+
+.formError .formErrorArrowBottom {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+	margin: 0px 0 0 12px;
+  top:2px;
+}
+
+.formError .formErrorArrow div {
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	box-shadow: 0 2px 3px #444;
+	-moz-box-shadow: 0 2px 3px #444;
+	-webkit-box-shadow: 0 2px 3px #444;
+	font-size: 0px;
+	height: 1px;
+	background: #ee0101;
+	margin: 0 auto;
+	line-height: 0;
+	font-size: 0;
+	display: block;
+}
+
+.formError .formErrorArrowBottom div {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.greenPopup .formErrorArrow div {
+	background: #33be40;
+}
+
+.blackPopup .formErrorArrow div {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow .line10 {
+	width: 15px;
+	border: none;
+}
+
+.formError .formErrorArrow .line9 {
+	width: 13px;
+	border: none;
+}
+
+.formError .formErrorArrow .line8 {
+	width: 11px;
+}
+
+.formError .formErrorArrow .line7 {
+	width: 9px;
+}
+
+.formError .formErrorArrow .line6 {
+	width: 7px;
+}
+
+.formError .formErrorArrow .line5 {
+	width: 5px;
+}
+
+.formError .formErrorArrow .line4 {
+	width: 3px;
+}
+
+.formError .formErrorArrow .line3 {
+	width: 1px;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	border-bottom: 0 solid #ddd;
+}
+
+.formError .formErrorArrow .line2 {
+	width: 3px;
+	border: none;
+	background: #ddd;
+}
+
+.formError .formErrorArrow .line1 {
+	width: 1px;
+	border: none;
+	background: #ddd;
+}

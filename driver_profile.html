@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ProDriver</title>
+<link rel="stylesheet" type="text/css" href="css/global.css" />
+<link rel="stylesheet" type="text/css" href="css/profile.css" />
+<style type="text/css">
+	body { background-image:url(images/new/tpl-bg-3.png); background-repeat:repeat-x; background-color:#2D2D2D;  }
+</style>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#login-link").click(function(){
+        $("#login-panel").slideToggle(200);
+    })
+})
+$(document).keydown(function(e) {
+    if (e.keyCode == 27) {
+        $("#login-panel").hide(0);
+    }
+});
+</script>
+</head>
+<body>
+<div id="container">
+  <cfinclude template="inc-header.cfm">
+  <div id="body">
+  	<div id="search-button"><a href="#"></a></div>
+    <div id="email-button"><a href="#"></a></div>
+    <div id="edit-button"><a href="#"></a></div>
+    <div id="view-button"><a href="#"></a></div>
+  </div>
+  <div id="content-container">
+  	<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border:10px solid #FFFFFF; margin:20px 0 0 0;">
+    	<tr>
+      	<td colspan="2" style="background:#4f4f4f;"><div class="page-title">MY PROFILE</div></td>
+      </tr>
+    	<tr>
+    	  <td width="210" rowspan="4" valign="top" style="border-top:3px solid #FFFFFF; border-right:3px solid #FFFFFF; background:#4f4f4f;">&nbsp;</td>
+    	  <td style="border-top:3px solid #FFFFFF; background:#2d2d2d; padding:5px;">
+       	<div class="section-title">Luis Aragon</div>
+        <div class="section-body">
+        	<div class="top">
+            	<div class="one">Preferred Airport<br>
+                	<span style="color:#fff; font-size:12px;">Boston Int</span>
+                </div>
+                <div class="two">Home Base<br>
+                	<span style="color:#fff; font-size:12px;">Mobile, Alabama</span>
+                </div>
+                <div class="three">Current City<br>
+                	<span style="color:#fff; font-size:12px;">Miami, Florida</span>
+                </div>
+                <div class="one" style="font-size:14px; color:#e6ae02; font-weight:bold; margin-top:15px;">Current Employer<br>
+                <span style="color:#000; font-size:12px;">Not Sure Huh</span>
+                </div>
+                <div class="two"  style="font-size:14px; color:#e6ae02; font-weight:bold; margin-top:15px; ">Canadian Driver Approved<br>
+                <span style="color:#000; font-size:12px;">Yes</span>
+                </div>
+                <div class="three" style="font-size:14px; color:#e6ae02; font-weight:bold; margin-top:15px; ">Telephone<br>
+                <span style="color:#000; font-size:12px;">781-235-9876</span>
+                </div>
+                <div class="one" style="font-size:14px; color:#e6ae02; font-weight:bold; margin-top:15px;">Passport<br>
+                <span style="color:#000; font-size:12px;">Not Sure Huh</span>
+                </div>
+                <div class="two"  style="font-size:14px; color:#e6ae02; font-weight:bold; margin-top:15px;">Date of Birth<br>
+                <span style="color:#000; font-size:12px;">5-23-82</span>
+                </div>
+             </div>
+             <div class="four" style="font-size:14px; color:#e6ae02; font-weight:bold; text-indent:27px;">Driving Professions:<br>
+             	<span style="float:left; color:#000; font-size:12px; text-indent:27px;">Entertainment - Professional</span>
+                </div>
+         </div>
+        </td>
+  	  </tr>
+    	<tr>
+    	  <td style="border-top:3px solid #FFFFFF; background:#2d2d2d; padding:5px;">
+       	<div class="section-title">Driver Calendar</div>
+        <div class="section-body" style="height:300px;">
+        	<div class="booking">Booking Availability</div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="float:left; margin-left:3px;">
+            	<thead>
+                	<tr class="header1">
+                    	<td style="padding-left:25px;" width="33%">March</td>
+                        <td style="padding-left:25px;" width="33%">April</td>
+                        <td style="padding-left:25px;" width="33%">May</td>
+                    </tr>
+                </thead>
+                <tbody>
+                	<tr>
+                    	<td width="33%" style="border-right:1px solid #666;">
+                        	<div style="float:left; font-size:14px; color:#666; padding-left:25px;">03/01<br>03/02<br>03/03</div>
+                            <div style="float:left; padding-left:92px; font-size:14px; color:#666;">03/01<br>03/02<br>03/03</div>
+                        </td>
+                        <td width="33%" style="border-right:1px solid #666;">
+                        </td>
+                        <td width="33%">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+        </td>
+  	  </tr>
+    	<tr>
+    	  <td style="border-top:3px solid #FFFFFF; background:#2d2d2d; padding:5px;">
+       	<div class="section-title" style="background-color:#ff7002;">About Driver</div>
+        <div class="section-body" style="font-size:14px; padding-left:10px; padding-top:10px; padding-right:5px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet pellentesque risus quis tristique. Vivamus egestas 
+aliquet sollicitudin. Duis ullamcorper placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+per inceptos himenaeos. In hac habitasse platea dictumst. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet pellentesque risus quis tristique. Vivamus egestas 
+aliquet sollicitudin. Duis ullamcorper placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+per inceptos himenaeos. In hac habitasse platea dictumst. 
+        </div>
+        </td>
+  	  </tr>
+    	<tr>
+    	  <td style="border-top:3px solid #FFFFFF; background:#2d2d2d; padding:5px;">
+       	<div class="section-title" style="color:#fff; background-color:#4f4f4f;">Driver Comments<span style="float:right; margin-right:5px"><img src="images/button.png"></div>
+        <div class="section-body" style="font-size:12px; padding-left:10px; padding-top:10px; padding-right:5px;">
+        	INSERT START IMAGE<br>
+            <strong>Company Name Here</strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet pellentesque risus quis tristique. Vivamus egestas 
+aliquet sollicitudin. Duis ullamcorper placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+per inceptos himenaeos. In hac habitasse platea dictumst. <br><br>
+INSERT START IMAGE<br>
+            <strong>Company Name Here</strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet pellentesque risus quis tristique. Vivamus egestas 
+aliquet sollicitudin. Duis ullamcorper placerat interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+per inceptos himenaeos. In hac habitasse platea dictumst. 
+        </div>
+        </td>
+  	  </tr>
+    </table>
+    <div style="clear:both;"></div>
+  </div>
+  <div id="footer">
+    <div id="footer-line">ProDriver.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;About Us&nbsp;&nbsp;-&nbsp;&nbsp;Contact Us&nbsp;&nbsp;-&nbsp;&nbsp;Terms and Conditions</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/*
+ 
+	GLOBAL 
+
+*/
+
+html { margin:0; padding:0; height:100%; }
+body { margin:0; padding:0; height:100%; font-size: 62.5%; font-family:Arial, Helvetica, sans-serif; }
+label { line-height: 1.8; color:#FFFFFF; }
+
+#container { width:970px; height:100%; margin:0 auto; }
+	#header { width:970px; height:66px; position:relative; }
+		#logo { float:left; margin:7px 0 0 0; }
+		#home-menu { float:right; margin:23px 0 0 0; }
+			#home-menu a { margin:0 0 0 15px; font-size:1.1em; font-family:Arial, Helvetica, sans-serif; color:#9B9B9B; text-decoration:none; }
+			#loginBtn { border:1px solid #9B9B9B; vertical-align:middle; margin-bottom:.25em; }
+				#login-panel { position: absolute; top: 45px; right:0px; width: 190px; padding: 10px 15px 5px 15px; background: #2A2A2A; border:1px solid #9B9B9B; font-size: 8pt; font-weight: bold; color: #FFFFFF; display:none; }
+					input { margin:0 0 5px 0; }
+					#account_email, #account_password { width:183px; }
+	#body { margin:30px 0 0 0; width:970px; height:458px; }
+	#content { width:970px; margin:15px 0 0 0; }
+	#footer { text-align:center; }
+		#content-container { width:970px; }
+			.content { margin:15px 0 0 0; width:970px; background-color:#fff; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+				.content td img { float:left; margin-left:15px; }
+				.content .signup { float:left; margin-top:-120px; }
+				.content .small-image1 img { float:left; margin-left:36px; margin-top:10px; margin-bottom:10px; }
+				.content .small-image2 img { float:left; margin-left:45px; margin-top:10px; margin-bottom:10px; }
+				.content .header { float:left; font-size:22px; color:#000; margin-top:10px; margin-left:10px; width:65%; text-align:left; }
+				.content .body { float:left; color:#505050; font-size:12px; margin-left:10px; width:65%; text-align:left; }
+		#footer-line { width:970px; height:25px; margin:15px 0 0 0; color:#FFFFFF; }
+	
